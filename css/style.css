@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Dosis:wght@200..800&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    margin:0px;
+    width:100%;
+}
+header {
+    border-bottom:1px solid;
+    border-color:white;
+    #logoSearchLike {
+        background-color:#6A3460;
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        img {
+            padding-left:2%;
+            width:109.09px;
+            height:100px;
+        }
+        ul{
+            padding-right:2%;
+            display:flex;
+            gap: 20px;  
+            font-size: 40px;
+            font-style: normal;
+            li {
+                color : white;
+                transition-property : color;
+                transition-duration : 250ms;
+                transition-timing-function : linear;
+                transition-delay : 50ms;
+                list-style:none;
+                flex-direction:column;
+            }
+            
+           
+        }
+        li:hover{
+            color : black;
+        }
+    }
+    
+}
+
+
+#main_container {
+        background-image: url("https://s3-alpha-sig.figma.com/img/4382/4e51/7cd8de6054ea7c22e6d3c611678c0664?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VrdAjiOBwv2uFWipEkqoJc3rqwTnC2SDCJgAm5kszBsstCcX0TAKeewFr~Z2tqq0za4dyq1AYMGProoJ3DHT6lUBW1XxX6pDSeE4Pij0OzVf8n0GEJ0ZqGEVHQtFxphriHGgza~ufGBl8VDdvy4y9Ddf8TayyjFT2eRr3oUYl0YAuEE~eorNkQ0W-b8xF6aUb-9ZP8FpVsots6QtvkQS2qRfw4i3tID5U0LdivZHrU3S-IYh1~LUxFnbnAvo0aQDDxg4VI7iuWlfCWhrkG-ZxVgIaIQlNaEkCrKboc58C~FJAqTjAqcwQ7dtgImXpt9nlj3wy3uGn175~saosSVp5g__");
+        background-repeat: no-repeat;
+        background-size:cover;
+        min-height:500px;
+        display:flex; 
+        flex-direction:row; 
+
+}
+
+.refrainChansonVoyage {
+    display:flex;
+    text-align:center;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400px;
+    font-style: normal;
+    font-size:40px;
+    color: white;
+    position:absolute;
+    background-color:#6A3460;
+    width:30%;
+    margin-top:12%;
+    margin-left:2%;
+    border:1px solid;
+}
+
+.typeVoyageur {
+background-color:#E4DCE2;
+width:100%;
+height:20%; 
+font-family:"Open Sans";
+font-style:normal;
+font-size:24px;
+font-weight:700;
+    ul {
+        display:flex;
+        gap: 20px; 
+        margin: 0;
+        padding: 0; 
+        justify-content:space-around;
+        img {
+            width:200px;
+            height:200px;
+        }
+        li{
+            list-style:none;
+            display:flex;
+            flex-direction:column;
+        }
+    }
+} 
+
+
+
+footer {
+    border-top:1px solid;
+    border-color:white;
+    background-color:#6A3460;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+    img {
+        width:334px;
+        height:268px;
+    }
+}
